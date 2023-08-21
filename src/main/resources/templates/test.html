@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Message</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const messageButton = document.getElementById("messageButton");
+
+            messageButton.addEventListener("click", function() {
+                alert("김태룡 븅신이군요!");
+            });
+        });
+    </script>
+
 </head>
 <body>
-test 아아! 마이크 test
+<button id="messageButton">클릭하세요</button>
 </body>
 </html>
